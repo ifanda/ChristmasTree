@@ -1,0 +1,80 @@
+body {
+  background: #333;
+}
+
+.gros-titre {
+  font-family: "quimby-mayoral", sans-serif;
+  color: #fff;
+  font-size: 160px;
+  margin: 18% auto;
+  text-align: center;
+  animation-delay: 2.4s;
+}
+
+.snowbank {
+  position: fixed;
+  bottom: -120px;
+  left: 0;
+  right: 0;
+  opacity: 1;
+}
+
+.snowbank img, .lights img {
+  width: 100%;
+}
+
+.snowman {
+  position: fixed;
+  bottom: 30px;
+  right: 80px;
+  transform: rotate(-6deg);
+  animation-delay: 0.4s;
+}
+
+.snowman img {
+  max-height: 400px;
+}
+
+.christmas-tree {
+  position: fixed;
+  bottom: 0px;
+  left: 40px;
+  transform: rotate(4deg);
+  animation-delay: 0.8s;
+}
+
+.lights {
+  position: fixed;
+  top: -90px;
+  left: -40px;
+  right : -40px;
+  transform: rotate(4deg);
+  animation-delay: 1.2s;
+}
+
+.carte {
+  position: fixed;
+  width: 60%;
+  margin: auto;
+  top: 0;
+  left: 20%;
+  background-image: url(img/carte_noel_2015.jpg);
+  background-size: contain;
+  background-position: center;
+  background-repeat:no-repeat;
+  height: 100%;
+  z-index: 1;
+  animation-delay: 4.5s;
+}
+
+.bg {
+    content: '';
+    position: fixed;
+    background-color: rgba(0,0,0,0.9);
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: 0;
+    animation-delay: 4.2s;
+}
